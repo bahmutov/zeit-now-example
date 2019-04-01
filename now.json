@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "hooks/foo/index.ts",
+      "use": "@now/node"
+    }
+  ]
+}
