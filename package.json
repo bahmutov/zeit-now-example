@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "now dev"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,10 @@
   },
   "homepage": "https://github.com/bahmutov/zeit-now-example#readme",
   "devDependencies": {
-    "@types/node": "11.13.0"
+    "@types/micro": "7.3.3",
+    "@types/node": "11.13.0",
+    "micro": "9.3.3",
+    "typescript": "3.4.1"
   },
-  "dependencies": {
-    "micro": "9.3.3"
-  }
+  "dependencies": {}
 }
